@@ -3,7 +3,7 @@
 A sleek and modern **Next.js 15** authentication interface built with **Tailwind CSS**, **React Hook Form**, and **Zod** validation.  
 Includes a landing **Hero page**, fully functional **Login** and **Sign-up** pages with smooth UI and proper form validation.
 
----
+## ![Login Page Screenshot](./public/login-page.png)
 
 ## 🧩 Features
 

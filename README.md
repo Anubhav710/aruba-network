@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Aruba Networks – Modern Auth UI
 
-## Getting Started
+A sleek and modern **Next.js 15** authentication interface built with **Tailwind CSS**, **React Hook Form**, and **Zod** validation.  
+Includes a landing **Hero page**, fully functional **Login** and **Sign-up** pages with smooth UI and proper form validation.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧩 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ⚡ Built with **Next.js 15 (App Router)**
+- 🎨 Styled using **Tailwind CSS**
+- ✅ Form validation via **Zod + React Hook Form**
+- 🔐 Authentication UI (Login + Sign-up)
+- 🏠 Hero page with navigation links
+- 📱 Fully responsive modern design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+/app
+├── hero-page/
+│ └── page.tsx
+├── login-page/
+│ └── page.tsx
+├── sign-up-page/
+│ └── page.tsx
+├── globals.css
+/public
+├── login-page.png <-- Screenshot of the Login UI
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Preview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Here’s how the **Login Page** looks:
 
-## Deploy on Vercel
+![Login Page Preview](./public/login-page.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Setup & Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/aruba-networks-auth.git
+
+   🧠 Tech Stack
+   ```
+
+Next.js 15 (App Router)
+
+TypeScript
+
+Tailwind CSS
+
+Zod
+
+React Hook Form
+
+🚀 Future Enhancements
+
+Add backend authentication (JWT / NextAuth)
+
+Implement dark mode toggle
+
+Add forgot password flow
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+💡 Author
+
+Anubhav Agrawal
+Freelancer | AI & Web Developer
+LinkedIn
+• Portfolio
